@@ -13,7 +13,7 @@ import java.util.List;
 @Service
 public class LocationServiceImpl implements LocationService {
 
-
+    // Spring Data JPA create a locationRepository bean
     private LocationRepository locationRepository;
 
     @Autowired
